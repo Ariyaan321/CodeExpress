@@ -39,10 +39,10 @@ def predict_sentiment(text):
     
     # Return the predicted label
     label = class_labels[predicted_class[0]]
-    if label in ['sadness', 'anger', 'fear', 'surprise']:
+    if label in ['sadness','anger', 'fear', 'surprise']:
         return 'complaint'
     else:
-        return 'appreciation/suggestion'        
+        return 'appreciation or suggestion'        
 
 
 # Streamlit app interface
