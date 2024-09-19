@@ -46,7 +46,7 @@ def predict_sentiment(text):
 
 
 # Streamlit app interface
-st.title("Checking Classify Your Tweets: Complaints or Compliments")
+st.title("Classify Your Tweets: Complaints or Compliments")
 
 # Create an input field for text
 input_text = st.text_area("Enter a sentence to analyze:")
